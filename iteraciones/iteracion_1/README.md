@@ -51,7 +51,7 @@ Primera versión del prototipo, enfocada en validar la factibilidad técnica del
 Incluir en esta carpeta:
 - `v1_circuito_protoboard.jpg`
 - `v1_vista_general.jpg`
-- `v1_detalle_conexiones.jpg`
+- `v1_detalle_conexiones.png`
 
 ---
 

@@ -49,8 +49,7 @@ Primera versión del prototipo, enfocada en validar la factibilidad técnica del
 ## Fotos del Prototipo
 
 Incluir en esta carpeta:
-- `v1_circuito_protoboard.jpg`
-- `v1_vista_general.jpg`
+- `v1_detalle_esp32.png`
 - `v1_detalle_conexiones.png`
 
 ---

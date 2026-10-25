@@ -59,7 +59,9 @@ Incluir en esta carpeta:
 
 ### Funcionalidad Lograda
 ❌ Detección cinemática precisa entre 2 y 20 cm con el sensor HC-SR04.
+
 ✅ Temporizador funcional de 4 minutos al 50% de brillo con desactivación del sensor ultrasónico mientras ilumina.
+
 ❌ Lectura estable alimentando el sensor ultrasónico directamente a 3.3V (arrojaba fantasmas y valores 0 cm).
 
 ### Problemas Identificados

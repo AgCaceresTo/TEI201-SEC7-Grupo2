@@ -4,44 +4,44 @@
 
 Instalar desde el Library Manager de Arduino IDE:
 
-1. **[Nombre Librería 1]** - v[X.X.X]
-   - Propósito: [Descripción]
-   - Instalación: `Sketch > Include Library > Manage Libraries > Buscar "[nombre]"`
-
-2. **[Nombre Librería 2]** - v[X.X.X]
-   - Propósito: [Descripción]
-   - Instalación: [Instrucciones]
-
+1. **[Adafruit NeoPixel]** - v[1.15.5]
+   - Propósito: Libreria de Arduino para controlar LED pixels de un solo cable 
+   - Instalación: `Sketch > Include Library > Manage Libraries > Buscar "Adafruit Neopixel"`
 ---
-
-## Librerías Personalizadas/Modificadas
-
-Si hay librerías modificadas o no disponibles en Arduino IDE, incluir en esta carpeta:
 
 ### Estructura
 ```
-librerias/
-├── MiLibreria/
-│   ├── MiLibreria.h
-│   ├── MiLibreria.cpp
+libreries/
+├── Adafruit_NeoPixel/
+│   ├── examples
+│   ├── Adafruit_NeoPixel.cpp
+│   ├── Adafruit_NeoPixel.h
+│   ├── Adafruit_NeoPixel_RP2.cpp
+│   ├── CONTRIBUTING.md
+│   ├── COPYING.File
+│   ├── esp.c
+│   ├── esp8266.c
+│   ├── kendyte_k210.c
 │   ├── keywords.txt
-│   └── README.md
+│   ├── library.Properties
+│   ├── psoc6.c
+│   ├── README.md
+│   └── rp2040_pio.h
 ```
 
 ### Instalación Manual
 ```bash
 # Copiar carpeta a Arduino libraries
-cp -r MiLibreria ~/Documents/Arduino/libraries/
+arduino-cli lib update-index
+arduino-cli lib install "Adafruit NeoPixel"
+
 ```
 
 ---
 
 ## Dependencias Completas
 
-Listar TODAS las librerías necesarias con versiones exactas:
-
 | Librería | Versión | Fuente | Obligatoria |
 |----------|---------|--------|-------------|
-| WiFi | Built-in | ESP32 Core | ✅ |
-| [Lib 1] | x.x.x | Arduino Library Manager | ✅ |
-| [Lib 2] | x.x.x | GitHub | ❌ |
+| Arduino | Incluida en Arduino IDE | Arduino Core | ✅ |
+| Adafruit NeoPixel | 1.15.5 | Arduino Library Manager | ✅ |

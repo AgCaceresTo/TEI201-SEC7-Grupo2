@@ -76,18 +76,9 @@ Verificacion de distancia
 Activacion del LED]
 
 ### Módulos Principales
-1. **Inicialización** - Setup del sistema
-2. **Lectura de Sensores** - Captura de datos
-3. **Procesamiento** - Análisis y decisiones
-4. **Actuación** - Control de actuadores
-5. **Comunicación** - Envío de datos
+1. **Inicialización** - Configuracion de sensor
+2. **Lectura de Sensores** - Catura de distancia
+3. **Procesamiento** - Comparacion con distacia nesecitada
+4. **Actuación** - Activacion de LED
 
 ---
-
-## API / Endpoints (si aplica)
-
-| Endpoint | Método | Descripción |
-|----------|--------|-------------|
-| `/status` | GET | Estado del sistema |
-| `/data` | GET | Datos de sensores |
-| `/control` | POST | Control de actuadores |

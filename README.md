@@ -17,9 +17,9 @@ La solución consiste en la instalación de un sistema físico de alerta lumíni
 Al acercar la mano a un sensor, el usuario encenderá una luz LED que perdurará por 4 minutos a modo de anunciar su presencia al chofer en ruta de manera activa y dándole tiempo de reacción, si no se presenta ningún bus en ese tramo es cosa de volver a activar el artefacto.
 
 ### Estado del Proyecto
-- **Versión actual:** v3.0
-- **Última actualización:** 25/10/2026
-- **Estado:** Prototipo inicial
+- **Versión actual:** v4.0
+- **Última actualización:** 17/11/2026
+- **Estado:** Prototipo final
 
 ---
 
@@ -40,20 +40,20 @@ Al acercar la mano a un sensor, el usuario encenderá una luz LED que perdurará
 ### Requisitos Previos
 - Arduino IDE 2.3.10
 - Fusion 360
-- ESP32
+- Arduino UNO R3
 - Tira LED
 - Panel solar 5V
 - Protoboard
 - HC-SR04 de 4 pines
 - Cable micro usb con disponibilidad de conección/unión a panel solar
-- Cable micro usb a usb
+- Cable micro usb-b a usb
 
 ### Instalación
 1. Clonar el repositorio
 2. Instalar driver CP210x Universal Windows Driver
-3. Descargar lector de ESP32
-4. Instalar librería〈FastLED〉
-5. Cargar código en ESP32 conectandola a un computador mediante USB
+3. Descargar lector de Arduino UNO
+4. Instalar librería〈Adafruit NeoPixel〉
+5. Cargar código en Arduino UNO R3 conectandola a un computador mediante USB
 6. Acercar mano al sensor
 
 ---

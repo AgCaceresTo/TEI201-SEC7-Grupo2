@@ -6,10 +6,10 @@ Esta carpeta contiene todo el código y documentación del software del proyecto
 ### 📁 Carpetas
 
 #### `src/`
-Código fuente del proyecto (.ino para Arduino/ESP32)
+Código fuente del Arduino UNO R3 en formato `.ino`
 
 #### `librerias/`
-Librerías adicionales necesarias (no incluidas en Arduino IDE)
+Informacion sobre librerias utilizadas dentro del codigo. NO incluye librerias externas desde Arduino IDE
 
 #### `docs/`
 Documentación técnica del software
@@ -18,29 +18,26 @@ Documentación técnica del software
 
 ## Stack Tecnológico
 
-**Plataforma:** Arduino / ESP32  
+**Plataforma:** Arduino UNO R3  
 **Lenguaje:** C/C++  
-**IDE:** Arduino IDE 2.x  
+**IDE:** Arduino IDE 2.3.11
 **Librerías principales:**
-- [Librería 1] - Versión X.X
-- [Librería 2] - Versión X.X
-- [Librería 3] - Versión X.X
+- [Adafruit NeoPixel] - Versión 1.15.5
 
 ---
 
 ## Instalación y Configuración
 
 ### 1. Instalar Arduino IDE
-[Instrucciones de instalación]
+Codigo puede cargarse desde Arduino IDE, configurando previamente el mircrocontrolador Arduino UNO
 
-### 2. Configurar ESP32/Arduino
-[Pasos de configuración]
+### 2. Configurar Arduino
+Selecionar la placa Arduino UNO y conectar mediante cable USB
 
 ### 3. Instalar Librerías
-```bash
-# Copiar librerías personalizadas
-cp -r librerias/* ~/Arduino/libraries/
-```
+
+Instalar desde gestor de librerias
+- Adafruit NeoPixel
 
 ### 4. Cargar Código
 1. Abrir `src/main.ino`
@@ -54,15 +51,16 @@ cp -r librerias/* ~/Arduino/libraries/
 Editar las siguientes constantes en el código:
 
 ```cpp
-// WiFi
-#define WIFI_SSID "tu_red"
-#define WIFI_PASS "tu_password"
+// Pines 
+#define PIN_LED   7
+#define NUM_LEDS  20   // Cantidad de LEDs de tu tira
+#define PIN_TRIG  13
+#define PIN_ECHO  12
 
-// Sensores
-#define SENSOR_PIN 4
-#define SAMPLE_RATE 1000
-
-// Otros parámetros
+// Parámetros del Proyecto
+const int DISTANCIA_MIN = 2;           // Mínimo 2 cm (filtro anti-fantasmas)
+const int DISTANCIA_MAX = 20;          // Máximo 20 cm[cite: 3]
+const unsigned long TIEMPO_LUZ = 240000; // 4 minutos
 ```
 
 ---

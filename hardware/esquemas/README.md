@@ -3,7 +3,8 @@
 ## Archivos Requeridos
 
 ### Formato Wokwi
-- `wokwi_diagram.json` - Archivo de proyecto Wokwi
+- `diagram.json` - Archivo de proyecto Wokwi
+- `libraries.txt` - Lubrerias utilizadas en el codigo
 - `screenshot.png` - Captura del circuito
 - `wokwi_link.txt` - URL del proyecto online
 

@@ -67,7 +67,13 @@ const unsigned long TIEMPO_LUZ = 240000; // 4 minutos
 
 ## Arquitectura del Software
 
-[Incluir diagrama de flujo o arquitectura]
+[Sensor HC-SR04
+  ↓
+Arduino UNO
+  ↓
+Verificacion de distancia
+  ↓
+Activacion del LED]
 
 ### Módulos Principales
 1. **Inicialización** - Setup del sistema

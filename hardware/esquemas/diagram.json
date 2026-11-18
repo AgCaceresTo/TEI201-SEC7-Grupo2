@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-breadboard-mini",
+      "id": "bb1",
+      "top": 39.3,
+      "left": 262.7,
+      "rotate": 90,
+      "attrs": {}
+    },
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-led-strip",
+      "id": "strip1",
+      "top": 78.9,
+      "left": 432,
+      "attrs": { "pixels": "8" }
+    },
+    { "type": "wokwi-hc-sr04", "id": "ultrasonic1", "top": -152.1, "left": 255.1, "attrs": {} }
+  ],
+  "connections": [
+    [ "uno:5V", "bb1:10b.j", "red", [ "v19.7", "h118.4", "v-96" ] ],
+    [ "bb1:10b.f", "strip1:VDD", "red", [ "v-28.8", "h115.2" ] ],
+    [ "strip1:DIN", "uno:7", "orange", [ "h-9.6", "v-106", "h-252.6" ] ],
+    [ "uno:GND.2", "strip1:VSS", "black", [ "v29.3", "h252.9", "v-114.4" ] ],
+    [ "bb1:10b.g", "ultrasonic1:VCC", "red", [ "v-172.8" ] ],
+    [ "ultrasonic1:GND", "uno:GND.1", "black", [ "v19.2", "h-240.9" ] ],
+    [ "uno:13", "ultrasonic1:TRIG", "purple", [ "v-37.8", "h211.4" ] ],
+    [ "uno:12", "ultrasonic1:ECHO", "violet", [ "v-28.2", "h211.9" ] ]
+  ],
+  "dependencies": {}
+}

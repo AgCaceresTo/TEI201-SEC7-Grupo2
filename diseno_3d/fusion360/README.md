@@ -55,7 +55,7 @@ Listar parámetros principales utilizados para la caja del Arduino:
 
 Listar parámetros principales utilizados para la caja de Baterias:
 - `ancho_total = 58.00 mm`
-- `alto_total = 30.00 mm`
+- `alto_total = 35.00 mm`
 - `largo_total = 109.50 mm`
 - `grosor_pared = 3mm`
 

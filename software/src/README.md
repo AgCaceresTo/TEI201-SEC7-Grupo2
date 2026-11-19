@@ -2,18 +2,14 @@
 
 ## Archivos Principales
 
-### `main.ino`
-Archivo principal del proyecto Arduino/ESP32
-
+### `sketch_final.ino`
+Archivo principal del proyecto Arduino UNO
 **Estructura:**
-- Setup: Inicialización del sistema
-- Loop: Ciclo principal de ejecución
-
-### Otros archivos (si aplica)
-- `config.h` - Configuraciones y constantes
-- `sensores.h` / `sensores.cpp` - Funciones de sensores
-- `actuadores.h` / `actuadores.cpp` - Control de actuadores
-- `comunicacion.h` / `comunicacion.cpp` - WiFi/Bluetooth
+Setup: Inicialización del sistema
+- configuracion de pines
+- establecimiento de parametros para LED
+Loop: Ciclo principal de ejecución
+- verificacion de distacia resivida por el sensro HC-SR04 dentro de parameterps establecido y activacion de LED
 
 ---
 

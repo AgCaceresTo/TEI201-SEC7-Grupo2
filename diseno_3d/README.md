@@ -24,9 +24,6 @@ Archivos nativos de Fusion 360 (.f3d)
 #### `renders/`
 Imágenes renderizadas de alta calidad
 
-#### `planos/`
-Planos técnicos con cotas
-
 ---
 
 ## Especificaciones
@@ -35,39 +32,50 @@ Planos técnicos con cotas
 **Unidades:** Milímetros (mm)  
 **Escala:** 1:1 (dimensiones reales)
 
-**Dimensiones externas:** [X mm × Y mm × Z mm]  
+## Arduino Case
+**Dimensiones externas:** [61.00 mm × 40.50 mm × 85.00 mm]  
 **Peso estimado:** [XXX gramos]  
-**Material:** [PLA, ABS, PETG, etc.]
+**Material:** [PLA]
+
+## Battery Case
+**Dimensiones externas:** [58.00 mm × 30.00 mm × 109.50 mm]  
+**Peso estimado:** [XXX gramos]  
+**Material:** [PLA]
+
+## Hinged Case for ultasonic sensor HC-SR04
+**Dimensiones externas:** [69.667 mm × 9.10 mm × 78.802 mm]  
+**Peso estimado:** [XXX gramos]  
+**Material:** [PLA]
 
 ---
 
 ## Consideraciones de Diseño
 
 ### Funcionales
-- [ ] Acceso a puertos USB/alimentación
-- [ ] Ventilación adecuada
-- [ ] Protección de componentes
-- [ ] Fácil acceso para mantenimiento
-- [ ] Resistencia a condiciones ambientales
+- [✓] Acceso a puertos USB/alimentación
+- [✓] Ventilación adecuada
+- [✓] Protección de componentes
+- [✓] Fácil acceso para mantenimiento
+- [~] Resistencia a condiciones ambientales
 
 ### Fabricación
-- [ ] Imprimible sin soportes excesivos
-- [ ] Tolerancias de ensamble (+0.2mm)
-- [ ] Grosor de pared mínimo 2mm
-- [ ] Sin ángulos imposibles (overhangs <45°)
+- [✓] Imprimible sin soportes excesivos
+- [✓] Tolerancias de ensamble (+0.2mm)
+- [✓] Grosor de pared mínimo 3mm
+- [✓] Sin ángulos imposibles (overhangs <45°)
 
 ---
 
 ## Configuración de Impresión 3D (si fue utilizada)
 
-**Impresora:** [Modelo]  
-**Material:** [PLA/ABS/PETG]  
+**Impresora:** [Bambulab]  
+**Material:** [PLA]  
 **Calidad de capa:** 0.2mm  
-**Relleno:** 20-30%  
-**Soportes:** [Sí/No - dónde]  
-**Temperatura nozzle:** [°C]  
-**Temperatura cama:** [°C]  
-**Velocidad:** [mm/s]
+**Relleno:** 100%  
+**Soportes:** [Sí, en agujeros creados para acceso de cables y conceccioens]  
+**Temperatura nozzle:** [200°C - 210°C]  
+**Temperatura cama:** [50°C - 60°C]  
+**Velocidad:** [500mm/s]
 
 **Tiempo estimado de impresión:** [X horas]  
 **Peso de material:** [X gramos]

@@ -66,7 +66,7 @@ const unsigned long TIEMPO_LUZ = 240000; // 4 minutos
 ---
 
 ## Arquitectura del Software
-
+```cpp
 [Sensor HC-SR04
   ↓
 Arduino UNO
@@ -74,7 +74,7 @@ Arduino UNO
 Verificacion de distancia
   ↓
 Activacion del LED]
-
+```
 ### Módulos Principales
 1. **Inicialización** - Configuracion de sensor
 2. **Lectura de Sensores** - Catura de distancia

@@ -1,19 +1,5 @@
 # Diseño 3D - Documentación
 
-## ⚠️ REQUISITO CRÍTICO
-
-El modelo 3D debe incluir **TODOS** los componentes del prototipo:
-- ✅ Encapsulado exterior completo
-- ✅ Placa ESP32/Arduino (con dimensiones exactas)
-- ✅ Todos los sensores en posición de instalación
-- ✅ Todos los actuadores
-- ✅ Batería / fuente de alimentación
-- ✅ Cableado (routing aproximado)
-- ✅ Sistema de montaje (brackets, tornillos)
-- ✅ Orificios de ventilación (si aplica)
-
-**NO ES ACEPTABLE:** Solo el encapsulado vacío sin componentes internos
-
 ---
 
 ## Carpetas

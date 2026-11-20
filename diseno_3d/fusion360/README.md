@@ -22,18 +22,19 @@ Ensamble_Arduino_Case
 ├── Encapsulado_Superior
 ├── Arduino UNO R3
 ├── Soporte_Arduino
-└── Tornilleria
+└── Orificios de montaje
 
 Ensamble_Battery_Case
 ├── Encapsulado_Inferior
 ├── Encapsulado_Superior
 ├── 18650 Battery Shield
 ├── Soporte_Battery Shield
-└── Tornilleria
+└── Orificios de montaje
 
 Ensamble_Hinged Case for Ultrasonic Sensor
 ├── Encapsulado_Inferior
 ├── Encapsulado_Superior
+├── Orificios de montaje
 └── Sensor HC-SR04
 
 ```
@@ -70,6 +71,7 @@ Listar parámetros principales utilizados para la caja de Baterias:
 2. File > Open > Seleccionar archivo `Arduino_Case_v2.2.f3d`
 3. Verificar que todas las referencias están cargadas
 4. Revisar timeline para ver historial
+5. Repetir para el resto de los archivos
 
 ---
 

@@ -92,7 +92,7 @@ Distancia detectada: 999 cm
   - `[DEBUG]` - Debug
 ```
 
-###Parametros del sistema
+### Parametros del sistema
 Formato de configuracion y hardware:
 ```
   "pin_led": 7,

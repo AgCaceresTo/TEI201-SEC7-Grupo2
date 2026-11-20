@@ -11,28 +11,31 @@ Archivo secundario con **historial de cambios completo**
 ### `Hinged Case for Ultrasonic Sensor (HC-SR04).f3d`
 Archivo Elegido, https://makerworld.com/en/models/1913595-hinged-case-for-ultrasonic-sensor-hc-sr04#profileId-2088211
 
-**DEBE INCLUIR:**
--  Todos los componentes modelados
--  Ensamble completo funcional
--  Historial de diseño (timeline)
--  Materiales asignados
--  Constraints y relaciones
-
 ---
 
 ## Estructura del Modelo
 
 ### Componentes (Components)
 ```
-Ensamble_Principal
+Ensamble_Arduino_Case
 ├── Encapsulado_Inferior
 ├── Encapsulado_Superior
 ├── Arduino UNO R3
-├── Sensor_DHT22
-├── LED_Indicador
-├── Soporte_Bateria
-├── Bracket_Montaje
+├── Soporte_Arduino
 └── Tornilleria
+
+Ensamble_Battery_Case
+├── Encapsulado_Inferior
+├── Encapsulado_Superior
+├── 18650 Battery Shield
+├── Soporte_Battery Shield
+└── Tornilleria
+
+Ensamble_Hinged Case for Ultrasonic Sensor
+├── Encapsulado_Inferior
+├── Encapsulado_Superior
+└── Sensor HC-SR04
+
 ```
 
 ### Uniones (Joints)

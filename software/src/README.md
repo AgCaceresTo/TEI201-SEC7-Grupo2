@@ -94,7 +94,7 @@ Distancia detectada: 999 cm
 
 ###Parametros del sistema
 Formato de configuracion y hardware:
-{
+```
   "pin_led": 7,
   "num_leds": 20,
   "pin_trig": 13,
@@ -102,4 +102,4 @@ Formato de configuracion y hardware:
   "distancia_min_cm": 2,
   "distancia_max_cm": 20,
   "tiempo_luz_ms": 240000
-}
+```

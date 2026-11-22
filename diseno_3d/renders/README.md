@@ -12,8 +12,7 @@
 - **Effects:** Ambient Occlusion ON
 
 ### Materiales y Apariencias
-Asignar materiales realistas:
-- Plástico: PLA/ABS 
+- Plástico: PLA/metalico
 - Electrónica: Componentes PLA azul para visibilidad
 
 ---

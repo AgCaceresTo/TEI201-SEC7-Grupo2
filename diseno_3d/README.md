@@ -63,5 +63,5 @@ Imágenes renderizadas de alta calidad
 **Temperatura cama:** [50°C - 60°C]  
 **Velocidad:** [500mm/s]
 
-**Tiempo estimado de impresión:** [X horas]  
-**Peso de material:** [X gramos]
+**Tiempo estimado de impresión:** [5 horas]  
+**Peso de material:** [700 gramos]

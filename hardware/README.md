@@ -41,6 +41,7 @@ Fotografías de alta resolución del prototipo ensamblado
 **Alimentación:** 5 v y 50 mA
 **Consumo:** ~75 mA  
 **Dimensiones:** Arduino Case [61.00 mm × 40.50 mm × 85.00 mm], Battery Case [58.00 mm × 30.00 mm × 109.50 mm], Hinged Case for ultasonic sensor HC-SR04 [69.667 mm × 9.10 mm × 78.802 mm]
+
 **Peso:** [gramos]
 
 ---

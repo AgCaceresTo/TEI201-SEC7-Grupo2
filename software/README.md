@@ -59,7 +59,7 @@ Editar las siguientes constantes en el código:
 
 // Parámetros del Proyecto
 const int DISTANCIA_MIN = 2;           // Mínimo 2 cm (filtro anti-fantasmas)
-const int DISTANCIA_MAX = 20;          // Máximo 20 cm[cite: 3]
+const int DISTANCIA_MAX = 20;          // Máximo 20 cm
 const unsigned long TIEMPO_LUZ = 240000; // 4 minutos
 ```
 

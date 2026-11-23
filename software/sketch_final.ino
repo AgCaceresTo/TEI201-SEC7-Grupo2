@@ -2,13 +2,13 @@
 
 // Pines exactos según tu conexión actual
 #define PIN_LED   7
-#define NUM_LEDS  20   // Cantidad de LEDs de tu tira[cite: 3]
+#define NUM_LEDS  20   // Cantidad de LEDs de tu tira
 #define PIN_TRIG  13
 #define PIN_ECHO  12
 
 // Parámetros del prototipo
 const int DISTANCIA_MIN = 2;           // Mínimo 2 cm (filtro anti-fantasmas)
-const int DISTANCIA_MAX = 20;          // Máximo 20 cm[cite: 3]
+const int DISTANCIA_MAX = 20;          // Máximo 20 cm
 const unsigned long TIEMPO_LUZ = 240000; // 4 minutos
 
 Adafruit_NeoPixel strip(NUM_LEDS, PIN_LED, NEO_GRB + NEO_KHZ800);
